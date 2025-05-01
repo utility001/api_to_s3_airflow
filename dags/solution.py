@@ -15,7 +15,7 @@ my_dag = DAG(
     dag_id="from_api_to_s3",
     description="This DAG will get randomuser data from randomuserapi and push them to S3 bucket",
 
-    # TODO: Schedule Later, Make the DAG first run abeg
+    # TODO: Scheduling
     # schedule=,
     # schedule_interval=
     # start_date=,
